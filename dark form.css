@@ -14,7 +14,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	background: white;
-	background-image: url('/img/bg.jpg');
+	background-image: url('./img/bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
