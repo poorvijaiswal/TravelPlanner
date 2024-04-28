@@ -6,18 +6,28 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-
-section {
-	height: 100vh;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: white;
+.text{
+	
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 10px;
+	background-color: gray;
+}
+section{
 	background-image: url('./img/bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	height: 100vh;
+}
+.boxcenter{
+	
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	/* background: white; */
+
 	/* opacity: ; */
 }
 
@@ -26,22 +36,28 @@ section {
 	width: 370px;
 	height: auto;
 	/*background: peachpuff;*/
-	padding: 40px 35px 60px;
-	/* border: 1px solid black; */
+	padding: 0px 35px 60px;
+	 border: 1px solid white; 
 	border-radius: 6px;
 	/* box-shadow: inset 0 0 10px #ffffff; */
 }
 
 .head {
+	padding-top: 100px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 36px;
+	/* font-weight: bolder; */
 	font-weight: bolder;
+	text-align: center;
+	color: whitesmoke;
 }
 
 .text {
 	margin-top: 50px;
 	font-size: 24px;
 	color: white;
-	font-weight: 600;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100px;
 	letter-spacing: 2px;
 	/* background: #000; */
 	opacity: 0.8;
@@ -78,7 +94,7 @@ form button {
 	height: 50px;
 	width: 100%;
 	outline: none;
-	font-size: 19px;
+	font-size: 15px;
 	color: #868686;
 	padding: 0 15px;
 	border-radius: 0 5px 5px 0;
@@ -88,24 +104,24 @@ form button {
 
 
 input:focus {
-	color: #339933;
-	box-shadow: 0 0 10px rgba(0, 225, 0, 0.2),
-		inset 0 0 5px rgba(0, 255, 0, 0.1);
+	color: #ff9900;
+	box-shadow: 0 0 10px rgba(243, 128, 5, 0.2),
+		inset 0 0 5px rgba(255, 17, 0, 0.1);
 	background: linear-gradient(#ffffff, #fafcfa);
 	animation: glow .9s ease-out infinite;
 }
 
 @keyframes glow {
 	0% {
-		border-color: #339933;
+		border-color:#ff9b04;
 		box-shadow: 0 0 5px rgba(0, 255, 0, 0.2),
 			inset 0 0 5px rgba(0, 0, 0, 0.1);
 	}
 
 	100% {
-		border-color: #666;
-		box-shadow: 0 0 20px rgba(0, 255, 0, .6),
-			inset 0 0 10px rgba(0, 255, 0, .4);
+		border-color: #ff9b04;
+		box-shadow: 0 0 20px rgba(255, 136, 0, 0.6),
+			inset 0 0 10px rgba(255, 136, 0, 0.6);
 	}
 }
 
@@ -118,11 +134,11 @@ button {
 }
 
 button:hover {
-	color: #339933;
-	border: 1px solid #339933;
-	box-shadow: 0 0 5px rgba(0, 255, 0, .6),
-		0 0 10px rgba(0, 255, 0, .2),
-		0 0 15px rgba(0, 255, 0, .1),
+	color: #ff9b04;
+	border: 1px solid #ff9b04;
+	box-shadow: 0 0 5px rgba(255, 115, 0, 0.6),
+		0 0 10px rgba(240, 133, 3, 0.2),
+		0 0 15px rgba(247, 169, 2, 0.1),
 		0 2px 0 rgb(253, 253, 253);
 }
 
